@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+
+}
+
+body {
+  
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+nav{
+    position: fixed;
+    height: 88;
+    align-items: center;
+    
+}
+
+.navbar-brand h2{
+    font-size: 20;
+    color: black;
+
+    font-weight: bold;
+}
+
+.nav-item a{
+    font-size: 16;
+    color: #585858;
+    font-weight: 600;
+}
+
+.nav-item .active{
+    color: black;
+    font-weight: 700;
+}
+
+.btn-login {
+    font-size: 14;
+    font-weight: 700;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn-login:hover {
+    font-size: 14;
+    font-weight: 700;
+    color: white;
+    background-color: #2B788B;
+    border-radius: 10px;
+}
+
+
+.btn-sign-up {
+    font-size: 14;
+    font-weight: 700;
+    color: white;
+    background-color: #2B788B;
+    border-radius: 10px;
+}
+
+.btn-sign-up:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+/* about */
+#about-course {
+    margin-top: 60px;
+}
+
+.image-course{
+    max-width: 600px;
+}
+
+#about-course .platform-title {
+    color: #2B788B;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+#about-course .platform-center {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dela Gothic One';
+    
+}
+
+#about-course .platform-subtitle {
+    font-size: 16px;
+    color: #585858;
+    font-weight: 500;
+}
+
+
+
+#about-course .btn-learn-more{
+    font-size: 14px;
+    color: #2B788B;
+    font-weight: bold;
+    background-color: #C3DCE3;
+    border-radius: 10px;
+}
+
+#about-course .total-user {
+    margin-top: 20px;
+}
+
+#about-course .total-user .total-user-content{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Dela Gothic One';
+    color: black;
+    
+}
+
+#about-course .total-user .plus-logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Dela Gothic One';
+    color: #2B788B;
+}
+
+#about-course .total-user .subtitle-total-user-and-content {
+    font-weight: 700;
+    color: #585858;
+}
