@@ -15,9 +15,8 @@ body {
 
 nav{
     position: fixed;
-    height: 88;
+    height: 40;
     align-items: center;
-    
 }
 
 .navbar-brand h2{
@@ -53,7 +52,6 @@ nav{
     border-radius: 10px;
 }
 
-
 .btn-sign-up {
     font-size: 14;
     font-weight: 700;
@@ -70,7 +68,8 @@ nav{
 
 /* about */
 #about-course {
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .image-course{
@@ -127,7 +126,81 @@ nav{
     color: #2B788B;
 }
 
-#about-course .total-user .subtitle-total-user-and-content {
-    font-weight: 700;
+
+#progress-course {
+    background-color: #F5F5F5;
+}
+.progress-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#progress-course .progress-container .progress-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Dela Gothic One', sans-serif;
+    word-spacing: 1px;
+    margin-bottom: 5px;  
+}
+
+#progress-course .progress-container .progress-subtitle {
+    margin-top: 10px;
     color: #585858;
 }
+
+/* vocabularry courses */
+#vocabulary-course {
+    line-height: 100%;
+}
+
+#vocabulary-course .vocabulary-title {
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: bold;
+}
+
+#vocabulary-course .btn-textbook {
+    background-color: #C3DCE3;
+    font-weight: bold;
+    font-size: 16px;
+    color: #2B788B;
+    border-radius: 20px;
+}
+
+#vocabulary-course .btn-textbook:hover {
+    background-color: white;
+    color: black;
+}
+
+#statistic-course{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #F5F5F5;
+}
+
+#statistic-course .statistic-title {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: bold;
+}
+
+#statistic-course .btn-statistic {
+    background-color: #C3DCE3;
+    font-weight: bold;
+    font-size: 16px;
+    color: #2B788B;
+    border-radius: 20px;
+    margin-left: 100px
+}
+
+#vocabulary-course .btn-textbook:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
